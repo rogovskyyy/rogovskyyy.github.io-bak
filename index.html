@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CTMLKXT17V"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'G-CTMLKXT17V');
+		</script>
+		<title>Bartosz Rogowski - rogovskyyy.github.io </title>
+		<meta charset='UTF-8'>
+		<meta name='author' content='bartosz rogowski, rogovsky, vaside'>
+		<meta name='keywords' content='php, rust, programming, webdev, devops, c#, .net, winforms, asp.net, poznan, Poznań'>
+		<meta name='robots' content='index, follow'>
+		<meta name='Classification' content='Business'>
+		<link rel="stylesheet" type="text/css" href="content/css/main.css">
+		<link rel="stylesheet" type="text/css" href="content/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="content/css/hover.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="content/media/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="content/media/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="content/media/favicon-16x16.png">
+		<link rel='icon' type='image/x-icon' href='content/media/favicon.ico' />
+		<link rel="manifest" href="content/media/site.webmanifest">
+		<script type="text/javascript" src="content/js/jquery.min.js"></script>
+		<script type="text/javascript" src="content/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="content/js/vendors/scrolloverflow.js"></script>
+		<script type="text/javascript" src="content/js/jquery.fullPage.js"></script>
+		<style>
+			a:link { padding-top: 0px; text-decoration: none; color: white; }
+			.test { width: 100%; margin: 10px; }
+			ol { color: #ccc; list-style-type: none; }
+			ol li { position: relative; margin-bottom: 20px; font-size: 12px; text-align: center; margin: auto; }
+			span { padding-right: 15px; color: #4e729b;}
+		</style>
+		<script>
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					sectionsColor: ['#0d0f15', '#0d0f15', '#E5DF77', '#0d0f15'],
+					anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+					menu: '#menu',
+					loopTop: true,
+					loopBottom: true
+				});
+
+				$("#landingText").text(function() {
+					var tablica = ["Hejo :)", "Ahoj :)", "Cześć :)", "Siemanko :)", "Servus :)"];
+					var random =  Math.floor((Math.random() * 5) + 0);
+					return tablica[random];
+				});
+
+				$(".hover").mouseleave(function () {
+					$(this).removeClass("hover");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="fullpage">
+			<div class="section" id="section0">
+				<div id="topHeader">
+					<div class="content">
+						<div class="topHeader-text">Strona domowa</div>
+						<div class="topHeader-text-right">
+							<img src="content/media/mailing.png" style="width: 20px; height: 16px; margin-right: 10px;">
+							<a href='mailto:kontakt@rogovsky.pl'>Masz pytanie? Pisz śmiało!</a>
+						</div>
+					</div>
+				</div>
+
+
+			
+				
+				<div class="showIt">
+					<div class="content">
+						<div class="menu">
+							<div class="animated bounceInLeft">
+								<div class="logo">ROGOVSKY</div>
+							</div>
+							<div class="animated bounceInRight">
+								<ul>
+									<li><a href="">Archiwum</a></li>
+									<li><a href="https://github.com/vaside">Github</a></li>
+									<li><a href="#home" class="active">Portal</a></li>
+									</ul>
+								</div>
+							</div>	
+						</div>
+						<div class="someText">
+							<div class="animated jackInTheBox">
+								<div id='landingText'></div>
+							</div>
+						</div>
+					</div>
+					<div id="particles-js">
+						<script type="text/javascript" src="content/js/particles.js"></script>
+						<script type="text/javascript" src="content/js/app.js"></script>
+					</div>
+				
+			</div>
+			<div class="section" id="section1">
+				<div class="secondPart">
+					<div class="secondPart-box">
+						<div class="secondPart-header">
+							<div class="contentSecond">
+								<div class="contentSecond" style="display:inline;">
+									<div style="float: left; white-space:nowrap;">
+										<img src="content/media/profile.jpg" style="border-radius: 50%; width: 150px; height: 150px; display: inline-block;">
+									</div>
+									<span><b>Cześć, tu Bartek (vel Vaside) </b></span><br />
+									<span>Student informatyki</span><br />
+									<span>
+										<div>
+											Jestem introwertykiem, typem idealisty.  wszystkie projekty, które tworzyłem, tworzę i będę tworzył muszą być dopięte na ostatni guzik.<br />
+											Staram się, aby każdy kolejny projekt był lepszy od poprzedniego. Po uszy zakochany w ↓<br /><br />
+											<div class="hobbyBox">
+												<div>Star Wars ヽ(ಠ_ಠ)ノ</div>
+												<div>EDM / Trap / Pop</div>
+												<div>MTB XC & ENDURO</div>
+												<div>Piano Compose</div>
+												<div>Astronomy ♥</div>
+											</div>
+										</div>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section2">
+				<div class="fourthPart">
+					<div class="fourthPart-box">
+						<div class="fourthPart-header">
+							UŻYWANE TECHNOLOGIE<br /><br />					
+							<div class='test'>
+							  <ol>
+								<li><span>C# |</span>WinForms, SFML, LINQ, Entity Framework, ASP.NET MVC 5, LiteDB, Json.NET</li>
+								<li><span>PHP |</span>budowa mniej skomplikowanych CMS, własne REST API</li>
+								<li><span>Rust |</span>drobne aplikacje, emulator CHIP-8</li>
+								<li><span>RDB |</span>MySQL, PostgreSQL</li>
+								<li><span>Networking |</span>TCP / IP, routing (statyczny, RIP, OSPF), DHCP, VLAN</li>
+								<li><span>Hardware |</span>montaż oraz eksploatacja urządzeń komputerowych, zarządzanie systemami Windows i Linux z poziomu terminala</li>
+								<li><span>Dodatkowo |</span>Adobe Photoshop CS6 / CC, Microsoft Access, Microsoft Excel</li>
+							  </ol> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="section3">
+				<div class="lastSection">
+					<div class="Box">
+						<div class="last-header"> OSTATNIE PROJEKTY
+							<div class="flex-container">
+								<div class="item">  
+									<figure class="imghvr-push-up"><img src="content/media/1.png">
+										<figcaption>
+											<p>Black Hole Visualization</p>
+										</figcaption><a href="javascript:;"></a>
+										</figure>
+								</div>
+								<div class="item">  
+									<figure class="imghvr-push-up"><img src="content/media/def.png">
+										<figcaption>
+											<p>Empty</p>
+										</figcaption><a href="javascript:;"></a>
+									</figure>
+								</div>
+								<div class="item">  
+									<figure class="imghvr-push-up"><img src="content/media/def.png">
+										<figcaption>
+											<p>Empty</p>
+										</figcaption><a href="javascript:;"></a>
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>	
+					<div class="footer">
+						<div class="content">
+							<a href="https://github.com/vaside"><img src="content/media/github.png" style="width: 24px; height: 24px"></a>
+							<a href="http://www.fb.com/bart.rogovski"><img src="content/media/facebook.png" style="width: 24px; height: 24px"></a>
+							<br />
+							<div style='float: left; color: #1e365c; font-size: 11px; margin-left: 10px;'>Copyright © 2020 rogovsky.pl, All Rights Reserved.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
